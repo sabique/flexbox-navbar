@@ -41,6 +41,15 @@ a:hover{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.flex-nav li {
+    flex: 3;
+}
+
+.flex-nav .social {
+    flex: 1;
 }
 
 @media all and (max-width:1000px) {
@@ -48,5 +57,5 @@ a:hover{
 }
 
 @media all and (max-width:500px) {
-    
+
 }

@@ -98,4 +98,25 @@ section, footer {
         display: flex;
         flex-direction: column;
     }
+
+    /* Flex Items */
+    .wrapper > * {
+        order: 999;
+    }
+
+    .flex-nav{
+        order: 1; 
+    }
+
+    .toggleNav{
+        display: block;
+    }
+
+    .flex-nav ul {
+        display: none;
+    }
+
+    .flex-nav ul.open{
+        display: flex;
+    }
 }
